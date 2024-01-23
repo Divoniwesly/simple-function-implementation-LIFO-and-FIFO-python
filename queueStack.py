@@ -10,14 +10,22 @@ nilai_input = int(input("Masukkan banyak perintah yang akan dijalankan : "))
 def push_front(value):
     # Fungsi mengembalikan elemen yang dipush ke depan 
     tambah_push_back = int(input('push_front '))
+    # syntax ini untuk menambah elemen di awal, 
+    # 0 adalah index, tambah_push_back adalah variabel yang memiliki nilai didalamnya,
+    
+    # nilai tersebut yang ditambahkan ke value dimana value adalah parameter tempat untuk variabel dataKosong
     value.insert(0, tambah_push_back)
     
     
 
 # Fungsi Push Back
 def push_back(value):
-    # Fungsi mengembalikan elemen yang dipush ke depan dalam
+    
+    # Fungsi menambahkan elemen dari paling belakang,
+    # mengambil nilai terlebih dahulu
     tambah_push_back = int(input('push_back '))
+
+    # lalu niali variabel tambah_push_back di append ke value 
     value.append(tambah_push_back)
     
     
